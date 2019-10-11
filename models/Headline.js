@@ -10,6 +10,11 @@ var headlineSchema = new Schema({
     required: true,
     unique: true
   },
+  // `link` is required and of type String
+  link: {
+    type: String,
+    required: true
+  },
   summary: {
     type: String,
     required: true
