@@ -68,7 +68,7 @@ $(document).ready(function() {
     // It constructs a jQuery element containing all of the formatted HTML for the article card
     var card = $(
       [
-          "<div class = 'card shadow mb-4'>",
+          "<div class='card shadow mb-4'>",
           "<div class='card-header p-2 pt-3 pl-3 bg-light'>",
           "<h4>",
           article.headline,
@@ -82,7 +82,7 @@ $(document).ready(function() {
           article.link,
           "</a>",
           "</div>",
-          "<div class ='card-text bg-white pb-3 pl-3'>",
+          "<div class='card-text bg-white pb-3 pl-3'>",
           "<a class='btn btn-light border save'>",
           "Save Article",
           "</a>",

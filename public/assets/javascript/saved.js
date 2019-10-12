@@ -44,7 +44,7 @@ $(document).ready(function () {
   function createCard(article) {
     var card = $(
       [
-        "<div class = 'card  shadow mb-4'>",
+        "<div class='card  shadow mb-4'>",
         "<div class='card-header p-2 pt-3 pl-3 bg-light'>",
         "<h4>",
         article.headline,
@@ -58,7 +58,7 @@ $(document).ready(function () {
         article.link,
         "</a>",
         "</div>",
-        "<div class ='card-text bg-white pb-3 pl-3'>",
+        "<div class='card-text bg-white pb-3 pl-3'>",
         "<a class='btn btn-light border mr-3 delete'>",
         "Delete Article</a>",
         "<a class='btn btn-light border notes'>Article Notes</a>",
@@ -153,10 +153,10 @@ $(document).ready(function () {
         currentArticle._id,
         "</h5>",
         "<hr />",
-        "<ul class='list-group  mb-3 note-container'>",
+        "<ul class='list-group mb-3 note-container'>",
         "</ul>",
-        "<textarea placeholder='  Add New Note' rows='10' cols='60''></textarea>",
-        "<button class='btn btn-light border  ml-auto mt-2 save'>Save Note</button>",
+        "<textarea placeholder='Add New Note' rows='10' cols='60''></textarea>",
+        "<button class='btn btn-light border ml-auto mt-2 save'>Save Note</button>",
         "</div>"
       ].join("");
 
