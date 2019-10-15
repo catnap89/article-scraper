@@ -32,7 +32,7 @@ To use our article scraper, go to our [Website](https://article-scraper-nytimes.
 
 
 ### Homepage
-![Screen shot](public/assets/img/article_scraper.png)
+![Screen shot](public/assets/images/article_scraper.png)
 
 
 ## Tech used
